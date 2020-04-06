@@ -3,7 +3,7 @@ gem "rspec"
 gem "sinatra", '1.4.4'
  
 group :development, :test do
-gem "pry", :group => :development
+gem "pry", :groups => [:development, :test]
 gem 'rspec'
 end
 
